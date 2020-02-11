@@ -1,0 +1,36 @@
+{
+    "sitters": [
+        {
+            "id": 1, 
+            "firstName": "First", 
+            "lastName": "Last",
+            "jobTitle": "Registered Technician",
+            "location": "Oakland, CA",
+            "yearStarted": 2014
+        },
+        {
+            "id": 1, 
+            "firstName": "John", 
+            "lastName": "Doe",
+            "jobTitle": "ABA",
+            "location": "San Ramon, CA",
+            "yearStarted": 2010
+        },
+        {
+            "id": 1, 
+            "firstName": "Samy", 
+            "lastName": "K",
+            "jobTitle": "Registered Technician",
+            "location": "Pleasant Hill, CA",
+            "yearStarted": 2014
+        },
+        {
+            "id": 1, 
+            "firstName": "Jane", 
+            "lastName": "Doe",
+            "jobTitle": "ABA",
+            "location": "San Francisco, CA",
+            "yearStarted": 2010
+        }
+    ]
+  }

@@ -1,17 +1,23 @@
 import React from 'react';
 import data from '../mockData/sitters.json';
 import SitterList from './SitterList';
+import NavBar from "./NavBar";
+import { useAuth0 } from "../react-auth0-spa";
 
-class App extends React.Component {
-  state = { sitters: data.sitters };
+function App() {
+  const { loading } = useAuth0();
 
-  render() {
-    return (
-      <div className="ui container" style={{ marginTop: '10px'}}>
-        <SitterList sitters = {this.state.sitters} />
-      </div>
-    );
+  if (loading) {
+    return <div>Loading...</div>;
   }
+
+  return (
+    <div className="App">
+      <header>
+        <NavBar />
+      </header>
+    </div>
+  );
 }
 
 export default App;
